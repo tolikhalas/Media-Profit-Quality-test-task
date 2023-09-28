@@ -1,5 +1,11 @@
-.idea/
-.vs_code/
-.venv/
+.vscode
+.idea
 
-.env
+.venv/
+*.env
+*.sqlite3
+
+# Cache folder(s)/file(s)
+__pycache__/
+**/__pycache__/
+*.pyc
